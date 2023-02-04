@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: 'Kanit', sans-serif;
+    background-image: url(../img/fondoweb.jpg);
+    height: 200;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+/*titulus menu y logo*/
+
+.logo{
+    padding: 0;
+    width: 100px;
+    border-radius: 50%;
+}
+
+div .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    background: #2fcdcd;
+    height: 80%;
+    width: 100%;
+}
+.enlace{
+
+    position: absolute;
+    padding: 20px 50px;
+    }
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+h1, h2, h5, h6{
+
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    color: black;
+}
+h1{
+    padding: 2rem;
+}
+h3{
+    font-family: 'Overpass', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: solid underline;
+}
+
+h4{
+    font-family: 'Overpass', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*seccion inicio*/
+
+
+
+/*seccion equipos*/
+
+
+.equipoModelos
+
+{
+    width: 90%;
+    margin: 10% auto;
+    padding: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(9, 1fr));
+    gap: 25px;
+    grid-template-areas: "VMAX04 VMAX06 VMAX08"
+    "VMAX10 VMAX 12 VMAX 16" 
+    "VMAX20 VMAX24 VMAX30";
+    }
+
+    .Vmax4{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax4:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax6{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax6:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax8{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax8:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax10{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax10:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax12{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax12:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax16{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax16:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax20{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+    
+    .Vmax20:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax24{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax24:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    .Vmax30{
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.575);
+        transition: all 1s;
+    }
+
+    .Vmax30:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+    /*seccion instalaciones*/
+
+    .instalacionesEquipos{
+
+    width: 90%;
+    margin: 2.5% auto;
+    padding: 0% auto;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: repeat(auto-fill minmax(250px, auto(auto, 3)));
+}
+
+    .Techo{
+        border-radius: 7px;
+        background-color: rgba(0, 0, 0, 0.692);
+        width: auto;
+        margin: 1.5%;
+        text-align: center;
+        transition: all 1s;
+    }
+
+    .Techo:hover{
+        transform: scale(1.0, 1.1);
+    }
+
+
+    /*footer y parrafos*/
+
+
+#top{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(1, 25, 54);
+    margin-top: auto;
+    border-style: hidden;
+    width: 0% auto;
+    padding-top: 1.5%;
+}
+
+p{
+    padding: 40px;
+}
+
+.parrafo{
+    background-color:rgba(0, 0, 0, 0.781);
+    text-align: center;
+}
+.parrafo2{
+    background-color: rgba(36, 36, 36, 0.781);
+    padding: 3%;
+    text-align: center;
+}
+
+legend{
+    color: black;
+    font-size: x-large;
+}
+
+/*formulario contacto*/
+
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.877);
+    border-radius: 6px;
+    width: 50%;
+    margin: 10px auto;
+    margin-top: 30px;
+    padding: 20px auto;
+    color: #fff(0, 0, 148, 0.767);
+    box-shadow: 5px 6px 5px black;
+}
+
+h5{
+    margin: 1px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.formulario{
+
+display: flex;
+flex-direction: column;
+}
+.cajas{
+    display: flex;
+    margin: 10px;
+}
+
+.cajas label{
+    flex-basis: 80px;
+}
+
+.cajas input{
+    flex: 1;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+    margin: (min 50px, max auto);
+}
+
+.cajas textarea{
+    border-radius: 10px;
+    margin: (min 80px, max auto);
+}
+
+.cajas input:focus{
+    outline: none;
+}
